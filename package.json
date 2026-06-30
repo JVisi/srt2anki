@@ -1,0 +1,15 @@
+{
+  "name": "srt-kanji-list",
+  "version": "1.0.0",
+  "description": "Build Anki-style kanji lists from anime SRT subtitles",
+  "type": "module",
+  "bin": {
+    "srt-kanji-list": "./srt-kanji-list.mjs"
+  },
+  "scripts": {
+    "start": "node srt-kanji-list.mjs"
+  },
+  "dependencies": {
+    "kuromoji": "^0.1.2"
+  }
+}
